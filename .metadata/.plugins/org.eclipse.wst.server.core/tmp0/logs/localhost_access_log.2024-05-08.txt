@@ -1,0 +1,12 @@
+127.0.0.1 - - [08/May/2024:12:20:26 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [08/May/2024:12:20:27 +0530] "GET /LoginPageAnishreeTech/registration.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/May/2024:12:20:27 +0530] "GET /LoginPageAnishreeTech/img/logo.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/May/2024:12:20:27 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [08/May/2024:12:21:48 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [08/May/2024:12:21:48 +0530] "GET /AnimationApplication/registration.html HTTP/1.1" 200 407
+0:0:0:0:0:0:0:1 - - [08/May/2024:12:22:38 +0530] "GET /AnimationApplication/registration.html HTTP/1.1" 200 417
+0:0:0:0:0:0:0:1 - - [08/May/2024:12:41:26 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [08/May/2024:12:41:31 +0530] "POST /LoginPageAnishreeTech/register HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [08/May/2024:12:41:31 +0530] "GET /LoginPageAnishreeTech/error.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/May/2024:12:41:44 +0530] "GET /LoginPageAnishreeTech/login.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/May/2024:12:41:48 +0530] "POST /LoginPageAnishreeTech/login.html HTTP/1.1" 200 2223

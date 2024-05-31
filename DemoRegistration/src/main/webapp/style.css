@@ -1,0 +1,151 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form container styles */
+.form-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
+    max-width: 400px;
+    width: 100%;
+    box-sizing: border-box;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Heading styles */
+h2 {
+    margin-top: 0;
+    text-align: center;
+    color: #333333;
+    animation: bounceInDown 1s ease;
+}
+
+@keyframes bounceInDown {
+    0%, 60%, 75%, 90%, 100% {
+        transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+    0% {
+        opacity: 0;
+        transform: translateY(-3000px);
+    }
+    60% {
+        opacity: 1;
+        transform: translateY(25px);
+    }
+    75% {
+        transform: translateY(-10px);
+    }
+    90% {
+        transform: translateY(5px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* Input field styles */
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+/* Input field focus styles */
+input[type="text"]:focus,
+input[type="email"]:focus {
+    border-color: #4caf50;
+}
+
+/* Submit button styles */
+input[type="submit"] {
+    width: 100%;
+    background-color: #4caf50;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    animation: fadeInUp 1s ease;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Submit button hover styles */
+input[type="submit"]:hover {
+    background-color: #45a049;
+    animation: pulse 0.5s ease infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Label styles */
+label {
+    font-weight: bold;
+    color: #555555;
+}
+
+/* Form link styles */
+.form-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Form link anchor styles */
+.form-link a {
+    color: #4caf50;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+/* Form link anchor hover styles */
+.form-link a:hover {
+    color: #45a049;
+}
