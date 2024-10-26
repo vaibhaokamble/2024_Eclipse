@@ -1,34 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User Registration Form</title>
-    <link rel="stylesheet" href="style.css">
-    
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h2>User Registration Form</h2>
-    <form name="frm" action="reg" method="POST">
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name" ><br><br>
+	<div class="container">
+		<form action="Registration" method="post">
+			<ul>
+				<h1>Registration Application</h1>
+				<li><input type="text" name="name" value=""
+					placeholder="enter the name"></li>
+				</br>
+				</br>
+				<li><input type="email" name="email" value=""
+					placeholder="enter the email"></li>
+				</br>
+				</br>
+				<li><input type="number" name="contact" value=""
+					placeholder="enter the contact"></li>
+				</br>
+				</br>
+				<li><select name="qual">
+						<option>Select Qualification</option>
+						<option>MCA</option>
+						<option>B.E</option>
+						<option>M.Tech</option>
+						<option>BSC</option>
+						<option>MSC</option>
+				</select></li>
+				</br>
+				</br>
+				<li><input type="text" name="username" value=""
+					placeholder="enter the username"></li>
+				</br>
+				</br>
+				<li><input type="password" name="password" value=""
+					placeholder="enter the password"></li>
+				</br>
+				</br>
 
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" ><br><br>
-
-        <label for="contact">Contact:</label><br>
-        <input type="text" id="contact" name="contact" ><br><br>
-
-        <label for="qualification">Qualification:</label><br>
-        <input type="text" id="qualification" name="qualification" ><br><br>
-
-        <label for="username">Username:</label><br>
-        <input type="text" id="username" name="username" ><br><br>
-
-        <label for="password">Password:</label><br>
-        <input type="password" id="password" name="password" ><br><br>
-
-        <input type="submit" value="Submit">
-    </form>
+				<li><input type="submit" name="s" value="Register Here"></li>
+			</ul>
+		</form>
+	</div>
 </body>
 </html>

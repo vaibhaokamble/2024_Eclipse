@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename compilation unit &apos;vaibhao.vk.RetrievePatiants.java&apos; to &apos;RetrievePatients.java&apos;&#x0D;&#x0A;- Original project: &apos;HostpitalManagementProject&apos;&#x0D;&#x0A;- Original element: &apos;vaibhao.vk.RetrievePatiants.java&apos;&#x0D;&#x0A;- Renamed element: &apos;vaibhao.vk.RetrievePatients.java&apos;" description="Rename compilation unit &apos;RetrievePatiants.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java&lt;vaibhao.vk{RetrievePatiants.java" name="RetrievePatients.java" references="false" stamp="1714128649385" version="1.0"/>
-</session>

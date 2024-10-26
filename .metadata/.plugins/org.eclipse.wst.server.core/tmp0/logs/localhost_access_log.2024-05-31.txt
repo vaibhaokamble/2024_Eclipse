@@ -1,7 +1,0 @@
-127.0.0.1 - - [31/May/2024:10:25:17 +0530] "GET / HTTP/1.1" 404 751
-0:0:0:0:0:0:0:1 - - [31/May/2024:10:25:17 +0530] "GET /FirstServletApplication/WEB-INF/classes/vaibhao/vk/FirstTest.java HTTP/1.1" 404 682
-0:0:0:0:0:0:0:1 - - [31/May/2024:10:25:17 +0530] "GET /favicon.ico HTTP/1.1" 404 762
-127.0.0.1 - - [31/May/2024:10:25:44 +0530] "GET / HTTP/1.1" 404 751
-0:0:0:0:0:0:0:1 - - [31/May/2024:10:25:45 +0530] "GET /FirstServletApplication/WEB-INF/classes/vaibhao/vk/FirstTest.java HTTP/1.1" 404 682
-127.0.0.1 - - [31/May/2024:10:27:35 +0530] "GET / HTTP/1.1" 404 751
-0:0:0:0:0:0:0:1 - - [31/May/2024:10:27:35 +0530] "GET /FirstServletApplication/WEB-INF/classes/vaibhao/vk/FirstTest.java HTTP/1.1" 404 682
